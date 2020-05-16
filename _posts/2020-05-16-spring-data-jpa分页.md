@@ -47,7 +47,7 @@ Page<User>findbyId(Pageable pageable,Integer id);
             countQuery="select count(*) from user t1  join score t2 on t1.id= t2.id ",nativeQuery = true)
 ```
 
-以上需要注意的地方是，这个查询有两个部分，首先是带join的SQL联表查询，此外，需要注意的是，如果要添加 countQuery =“ ”，在其中编写count 的SQL语句，count语句的目的，是为了让分页组件能够知道数据的总数，这样，才能够实现分页的效果
+以上需要注意的地方是，这个查询有两个部分，首先是带join的SQL联表查询，此外，需要注意的是，必须要添加 countQuery =“ ”，在其中编写count 的SQL语句，count语句的目的，是为了让分页组件能够知道数据的总数，这样，才能够实现分页的效果
 
 
 
