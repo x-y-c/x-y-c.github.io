@@ -3,7 +3,7 @@ layout: post
 title: 'springboot使用外部配置文件'
 date: '2020-05-31'
 author: 'yc'
-tags: '后端'
+tags: 后端
 ---
 
 # springboot使用外部配置文件
