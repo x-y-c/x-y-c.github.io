@@ -1,8 +1,9 @@
 ---
+title: springboot配置文件敏感信息加密
+date: 2020-01-09 00:00:00 Z
+tags:
+- springboot
 layout: post
-title: 'springboot配置文件敏感信息加密'
-date: 2020-01-09
-tags: springboot
 ---
 
 2020了诶！
