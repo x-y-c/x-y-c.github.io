@@ -1,8 +1,9 @@
 ---
+title: 使用spring-data-JPA分页
+date: 2020-05-16 00:00:00 Z
+tags:
+- 后端
 layout: post
-title: '使用spring-data-JPA分页'
-date: 2020-05-16
-tags: 后端
 ---
 
 # 使用Spring-data-JPA查询数据并分页
