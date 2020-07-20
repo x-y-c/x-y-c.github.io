@@ -57,3 +57,4 @@ permalink: "/:year/:month/:day/:title.html"
 plugins:
 - jekyll-paginate
 - jekyll-seo-tag
+- jekyll-admin
