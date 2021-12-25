@@ -1,0 +1,145 @@
+# nlp相关总结
+
+## 机器学习
+
+传统神经网络
+
+## 深度学习
+
+### CNN
+
+1. cnn的工作过程
+2. textCNN和CNN有何不同
+3. 卷积和池化
+
+
+
+### RNN
+
+rnn lstm gru的区别与改进
+
+介绍RNN有哪些特点，什么特点，为什么有梯度消失，有哪些激活函数
+
+LSTM怎么解决梯度消失，怎么遗忘，C^{t}怎么更新
+
+lstm的门控机制如何理解
+
+
+
+### Attention
+
+
+
+### Transformer
+
+介绍Transformer的中心思想
+
+用的是单向的transformer还是双向的
+
+transformer介绍一下，FFN block的作用，哪个部分可以删减并且不带来性能损失
+
+Transformer的encoder
+
+为什么transformer中的残差能对模型的堆叠有好处
+
+BERT的结构
+
+BERT和CRF怎么结合的
+
+多头注意力机制是如何实现的 自注意力机制
+
+
+
+### BERT
+
+简单介绍一下bert，以及bert变种，变种与原生bert的区别 bert bertwwm  roberta  albert
+
+Bert用的时候怎么设置—>介绍bertx项目中超参设置，脚本运行等等
+
+介绍Bert的输入
+
+介绍bert的具体结构
+
+bert的缺点，怎么解决， 自编码任务的缺点，长度问题
+
+bert在所有任务上效果都很好吗
+
+长文本效果是否好，为什么
+
+BERT中的segment id不加会如何
+
+
+
+### Embedding
+
+embedding的作用，在NLP的应用，Embedding有哪几种获取方式
+
+GloVe与word2vec的区别
+
+word2vec介绍，cbow和skip-gram的区别，各自的优缺点
+
+
+
+
+
+### 激活函数
+
+激活函数，区别是什么  可以用到哪些网络中
+
+
+
+### 手撕代码
+
+代码题  最长不重复子序列
+
+代码题  最长公共子序列  编辑距离
+
+代码题  找到第K大的数
+
+梯度消失和梯度爆炸的原因  解决办法
+
+BN 和 LN
+
+
+
+### 机器学习
+
+介绍SVM的原理，核函数和软间隔
+
+传统机器学习如：朴素贝叶斯 ，可以用在哪些方面
+
+集成学习了解吗
+
+朴素贝叶斯
+
+XGBoost
+
+SVM
+
+
+
+- 解释NLP遇到缺失值怎么办，什么情况填充众数，什么情况填充均值
+- 介绍递归的思想
+- 样本均衡性解决
+- 介绍浅层/深层神经网络的优缺点 --- 想了解深度学习的发展过程
+- f1-score
+
+- 机器学习和深度学习使用的场景差异
+
+- 自然语言处理有哪些任务
+
+
+
+- 相对位置编码和绝对位置编码的对比
+- SpanBERT有无了解，span的方式有什么好处
+- NER模型与分类模型的区别
+- Focal Loss介绍一下
+
+- 
+- 
+- attention为什么要降维
+- bert中的mask
+  - padding mask，decoder mask
+- 交叉注意力机制
+- KNN
+
